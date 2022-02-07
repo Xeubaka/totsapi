@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tots-api:
+    container_name: tots-api
+    image: xeubaka/tots-api:0.0.1-SNAPSHOT
+    privileged: true
+    ports:
+    - "8080:8080"
